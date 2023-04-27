@@ -1,7 +1,7 @@
 export async function buscarCanciones(token){
 
 
-    const URL="https://api.spotify.com/v1/artists/3YcBF2ttyueytpXtEzn1Za/top-tracks?market=us"
+    const URL="https://api.spotify.com/v1/artists/6XyY86QOPPrYVGvF9ch6wz/top-tracks?market=us"
 
     const PETICION={
         method:"GET",
