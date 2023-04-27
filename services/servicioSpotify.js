@@ -19,7 +19,7 @@ export async function pedirTokenEnSpotify(){
     let respuesta=await fetch(URL,PETICION)
     let respuestTOKEN=await respuesta.json()
 
-    console.log("cliente ya llegue...")
-    console.log(respuestTOKEN)
+    let token=respuestTOKEN.token_type+" "+respuestTOKEN.access_token
+    return(token)
 
 }
